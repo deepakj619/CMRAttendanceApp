@@ -1,0 +1,1304 @@
+ private void Cse_1_A() {
+        //Storing Roll No. in array list using loops
+        for (char i = '0'; i <= '5'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("5" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("500");
+        rollNo.remove("514");
+        rollNo.remove("519");
+        rollNo.remove("544");
+        rollNo.add("560");
+    }
+
+    private void Cse_1_B() {
+        for (char i = '6'; i <= 'B'; i++) { //This loop generates the last second character of roll no.
+            if (i == ':')
+                while (i != 'A')
+                    i++;
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("5" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("560");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("5C0");
+    }
+
+    private void Cse_1_C() {
+        //Storing Roll No. in array list using loops
+        for (char i = 'C'; i <= 'H'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("5" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("5C0");
+        rollNo.remove("5D4");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("5J0");
+    }
+
+    private void Cse_1_D() {
+        //Storing Roll No. in array list using loops
+        for (char i = 'J'; i <= 'P'; i++) { //This loop generates the last second character of roll no.
+            if (i == 'O')
+                i++;
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("5" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("5J0");
+        rollNo.remove("5D4");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("5Q0");
+    }
+
+case 1:
+          switch (section) {  //3
+                            case 1:
+                                Cse_1_A();
+                                break;
+                            case 2:
+                                Cse_1_B();
+                                break;
+                            case 3:
+                                Cse_1_C();
+                                break;
+                            case 4:
+                                Cse_1_D();
+                                break;
+
+                        }
+                        break;
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Civil branch Students List
+    private void Civil_1_year() {
+        //Storing Roll No. in array list using loops
+        for (char i = '0'; i <= '4'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("1" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("100");
+        rollNo.remove("112");
+        rollNo.remove("129");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("150");
+        rollNo.add("151");
+        rollNo.add("152");
+        rollNo.add("153");
+    }
+
+    private void Civil_2_year() {
+        //Storing Roll No. in array list using loops
+        for (char i = '0'; i <= '4'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("1" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("100");
+        rollNo.remove("101");
+        rollNo.remove("102");
+        rollNo.remove("105");
+        rollNo.remove("110");
+        rollNo.remove("112");
+        rollNo.remove("113");
+        rollNo.remove("115");
+        rollNo.remove("116");
+        rollNo.remove("121");
+        rollNo.remove("124");
+        rollNo.remove("133");
+        rollNo.remove("141");
+        rollNo.remove("144");
+        rollNo.remove("145");
+        rollNo.remove("149");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("150");
+        rollNo.add("16-101");
+        rollNo.add("16-102");
+        rollNo.add("16-103");
+        rollNo.add("16-104");
+        rollNo.add("16-105");
+        rollNo.add("16-106");
+        rollNo.add("16-107");
+        rollNo.add("16-108");
+        rollNo.add("16-109");
+        rollNo.add("16-110");
+        rollNo.add("16-111");
+        rollNo.add("16-112");
+        rollNo.add("16-113");
+        rollNo.add("16-114");
+        rollNo.add("16-115");
+        rollNo.add("16-116");
+    }
+
+    private void Civil_3_A() {
+        //Storing Roll No. in array list using loops
+        for (char i = '0'; i <= '4'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("1" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("115");
+        rollNo.remove("100");
+        rollNo.remove("116");
+        rollNo.remove("119");
+        rollNo.remove("121");
+        rollNo.remove("128");
+        rollNo.remove("145");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("150");
+        rollNo.add("151");
+        rollNo.add("152");
+        rollNo.add("153");
+        rollNo.add("154");
+        rollNo.add("155");
+        rollNo.add("156");
+        rollNo.add("157");
+        rollNo.add("158");
+        rollNo.add("159");
+        rollNo.add("160");
+        rollNo.add("16-101");
+        rollNo.add("16-102");
+        rollNo.add("16-103");
+        rollNo.add("16-104");
+        rollNo.add("16-105");
+        rollNo.add("16-106");
+        rollNo.add("16-107");
+        rollNo.add("16-108");
+        rollNo.add("16-109");
+        rollNo.add("16-110");
+        rollNo.add("16-111");
+        rollNo.add("16-112");
+        rollNo.add("16-113");
+        rollNo.add("16-114");
+        rollNo.add("16-115");
+        rollNo.add("16-116");
+        rollNo.add("16-117");
+    }
+    private void Civil_3_B() {
+        //Storing Roll No. in array list using loops
+        for (char i = '6'; i < 'A'; i++) { //This loop generates the last second character of roll no.
+            if (i == ':')
+                while (i != 'A')
+                    i++;
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+
+                rollNo.add("1" + Character.toString(i) + Integer.toString(j));
+                if(i=='A' && j==7){
+                    break;
+                }
+            }
+        }
+
+        //Removing the no.'s which are not required
+        rollNo.remove("160");
+        rollNo.remove("162");
+        rollNo.remove("189");
+        rollNo.remove("190");
+        rollNo.remove("193");
+        rollNo.remove("1A4");
+        rollNo.remove("1A8");
+        rollNo.remove("1A9");
+        rollNo.remove("1A4");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("14-109");
+        rollNo.add("14-160");
+        rollNo.add("14-118");
+        rollNo.add("14-139");
+        rollNo.add("14-144");
+        rollNo.add("14-152");
+        rollNo.add("14-154");
+        rollNo.add("14-163");
+        rollNo.add("14-1A5");
+        rollNo.add("15-109");
+        rollNo.add("16-118");
+        rollNo.add("16-119");
+        rollNo.add("16-120");
+        rollNo.add("16-121");
+        rollNo.add("16-122");
+        rollNo.add("16-123");
+        rollNo.add("16-124");
+        rollNo.add("16-125");
+        rollNo.add("16-126");
+        rollNo.add("16-127");
+        rollNo.add("16-128");
+        rollNo.add("16-129");
+        rollNo.add("16-130");
+        rollNo.add("16-131");
+        rollNo.add("16-132");
+        rollNo.add("16-133");
+        rollNo.add("16-134");
+        rollNo.add("16-135");
+
+
+    }
+
+
+    private void Civil_4_year() {
+        //Storing Roll No. in array list using loops
+        for (char i = '0'; i <= '5'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("1" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+    }
+
+    //Mech Branch students List
+    private void Mech_1_A() {
+        //Storing Roll No. in array list using loops
+        for (char i = '0'; i <= '3'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("3" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("300");
+        rollNo.remove("303");
+        rollNo.remove("314");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("340");
+        rollNo.add("341");
+        rollNo.add("342");
+    }
+
+    private void Mech_1_B() {
+        //Storing Roll No. in array list using loops
+        for (char i = '4'; i <= '7'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("3" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("340");
+        rollNo.remove("341");
+        rollNo.remove("342");
+        rollNo.remove("357");
+        rollNo.remove("379");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("380");
+        rollNo.add("381");
+        rollNo.add("382");
+        rollNo.add("383");
+    }
+
+    private void Mech_1_C() {
+        //Storing Roll No. in array list using loops
+        for (char i = 'B'; i <= 'F'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("4B0");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("4G0");
+        rollNo.add("4G1");
+        rollNo.add("4G2");
+        rollNo.add("4G3");
+        rollNo.add("4G4");
+    }
+    private void Mech_2_A() {
+        //Storing Roll No. in array list using loops
+        for (char i = '0'; i <= '4'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("3" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("300");
+        rollNo.remove("303");
+        rollNo.remove("317");
+        rollNo.remove("323");
+        rollNo.remove("324");
+        rollNo.remove("331");
+        rollNo.remove("338");
+        rollNo.remove("339");
+        rollNo.remove("341");
+        rollNo.remove("344");
+        rollNo.remove("346");
+
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("350");
+        rollNo.add("351");
+        rollNo.add("352");
+        rollNo.add("353");
+        rollNo.add("16-301");
+        rollNo.add("16-302");
+        rollNo.add("16-303");
+        rollNo.add("16-304");
+        rollNo.add("16-305");
+        rollNo.add("16-306");
+        rollNo.add("16-307");
+        rollNo.add("16-308");
+        rollNo.add("16-309");
+        rollNo.add("16-310");
+        rollNo.add("16-311");
+        rollNo.add("16-312");
+        rollNo.add("16-322");
+    }
+
+    private void Mech_2_B() {
+        //Storing Roll No. in array list using loops
+        for (char i = '5'; i <= '9'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("3" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("350");
+        rollNo.remove("351");
+        rollNo.remove("352");
+        rollNo.remove("353");
+        rollNo.remove("361");
+        rollNo.remove("365");
+        rollNo.remove("370");
+        rollNo.remove("373");
+        rollNo.remove("383");
+        rollNo.remove("394");
+        rollNo.remove("399");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("3A0");
+        rollNo.add("3A1");
+        rollNo.add("3A2");
+        rollNo.add("3A3");
+        rollNo.add("3A4");
+        rollNo.add("16-313");
+        rollNo.add("16-314");
+        rollNo.add("16-315");
+        rollNo.add("16-317");
+        rollNo.add("16-318");
+        rollNo.add("16-319");
+        rollNo.add("16-320");
+        rollNo.add("16-321");
+        rollNo.add("16-323");
+        rollNo.add("16-324");
+        rollNo.add("16-325");
+    }
+    private void Mech_2_C() {
+        //Storing Roll No. in array list using loops
+        for (char i = 'C'; i <= 'H'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+
+        //Removing the no.'s which are not required
+        rollNo.remove("4C0");
+        rollNo.remove("4E7");
+        rollNo.remove("4D3");
+
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("4J0");
+        rollNo.add("16-404");
+        rollNo.add("16-409");
+        rollNo.add("16-424");
+        rollNo.add("16-425");
+        rollNo.add("16-426");
+        rollNo.add("16-427");
+        rollNo.add("16-428");
+        rollNo.add("16-429");
+        rollNo.add("16-430");
+        rollNo.add("16-431");
+        rollNo.add("16-432");
+        rollNo.add("16-433");
+        rollNo.add("16-434");
+        rollNo.add("16-435");
+        rollNo.add("16-436");
+    }
+
+
+
+    private void Mech_3_A() {
+        //Storing Roll No. in array list using loops
+        for (char i = '0'; i <= '5'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("3" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        rollNo.remove("300");
+        rollNo.remove("302");;
+        rollNo.remove("316");
+        rollNo.remove("320");
+        rollNo.remove("325");
+        rollNo.remove("352");
+        rollNo.add("360");
+        rollNo.add("318");
+        rollNo.add("16-342");
+        rollNo.add("16-343");
+        rollNo.add("16-344");
+        rollNo.add("16-346");
+        rollNo.add("16-347");
+        rollNo.add("16-348");
+        rollNo.add("16-349");
+        rollNo.add("16-350");
+    }
+
+    private void Mech_3_B() {
+        //Storing Roll No. in array list using loops
+        for (char i = '6'; i <= 'A'; i++) { //This loop generates the last second character of roll no.
+            if (i == ':')
+                while (i != 'A')
+                    i++;
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("3" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("360");
+        rollNo.remove("375");
+        rollNo.remove("391");
+        rollNo.remove("392");
+        rollNo.remove("377");
+        rollNo.remove("3A6");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("3B0");
+        rollNo.add("3B2");
+        rollNo.add("3B3");
+        rollNo.add("3B4");
+        rollNo.add("3B6");
+        rollNo.add("3B7");
+        rollNo.add("3B8");
+        rollNo.add("3B9");
+        rollNo.add("3C0");
+        rollNo.add("16-332");
+        rollNo.add("16-333");
+        rollNo.add("16-334");
+        rollNo.add("16-335");
+        rollNo.add("16-336");
+        rollNo.add("16-337");
+        rollNo.add("16-338");
+        rollNo.add("16-340");
+
+    }
+    private void Mech_3_C() {
+        //Storing Roll No. in array list using loops
+        for (char i = 'C'; i <= 'H'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("4C0");
+        rollNo.remove("4D0");
+        rollNo.remove("4E9");
+        rollNo.remove("4F5");
+        rollNo.remove("4F7");
+        rollNo.remove("4G8");
+        rollNo.remove("4H4");
+        rollNo.remove("4H6");
+        rollNo.remove("4H9");
+
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("13-4B7");
+        rollNo.add("13-4F1");
+        rollNo.add("15-401");
+        rollNo.add("15-403");
+        rollNo.add("15-407");
+        rollNo.add("15-408");
+        rollNo.add("15-411");
+        rollNo.add("15-413");
+        rollNo.add("15-414");
+        rollNo.add("15-415");
+    }
+
+
+    private void Mech_4_A() {
+        //Storing Roll No. in array list using loops
+        for (char i = '0'; i <= '5'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("3" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("300");
+        rollNo.remove("306");
+        rollNo.remove("343");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("360");
+        rollNo.add("14-301");
+        rollNo.add("14-302");
+        rollNo.add("14-303");
+        rollNo.add("14-310");
+    }
+
+    private void Mech_4_B() {
+        //Storing Roll No. in array list using loops
+        for (char i = '6'; i <= 'B'; i++) { //This loop generates the last second character of roll no.
+            if (i == ':')
+                while (i != 'A')
+                    i++;
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("3" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("360");
+        rollNo.remove("390");
+        rollNo.remove("394");
+        rollNo.remove("398");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("3C0");
+        rollNo.add("12-306");
+        rollNo.add("14-304");
+        rollNo.add("14-306");
+        rollNo.add("14-307");
+        rollNo.add("14-308");
+        rollNo.add("14-311");
+    }
+
+    private void Mech_4_C() {
+        //Storing Roll No. in array list using loops
+        for (char i = 'A'; i <= 'E'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("4A0");
+        rollNo.remove("4A1");
+        rollNo.remove("4A2");
+        rollNo.remove("4A3");
+        rollNo.remove("4A4");
+        rollNo.remove("4B7");
+        rollNo.remove("4B9");
+        rollNo.remove("4C5");
+        rollNo.remove("4D6");
+        rollNo.remove("4D7");
+        rollNo.remove("4D9");
+        rollNo.remove("4E6");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("4F0");
+        rollNo.add("4F3");
+        rollNo.add("4F4");
+        rollNo.add("14-408");
+    }
+
+
+    //ECE branch Students List
+    private void Ece_1_A() {
+        //Storing Roll No. in array list using loops
+        for (char i = '0'; i <= '5'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("400");
+        rollNo.remove("456");
+        rollNo.remove("457");
+        rollNo.remove("458");
+        rollNo.remove("459");
+        //Adding no.'s which were unable to add using above loop
+
+    }
+
+    private void Ece_1_B() {
+        //Storing Roll No. in array list using loops
+        for (char i = '5'; i <= 'A'; i++) { //This loop generates the last second character of roll no.
+            if (i == ':')
+                while (i != 'A')
+                    i++;
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("450");
+        rollNo.remove("451");
+        rollNo.remove("452");
+        rollNo.remove("453");
+        rollNo.remove("454");
+        rollNo.remove("455");
+        rollNo.remove("4A1");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("4B0");
+    }
+
+    private void Ece_1_C() {
+        //Storing Roll No. in array list using loops
+        for (char i = 'B'; i <= 'F'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("4B0");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("4G0");
+        rollNo.add("4G1");
+        rollNo.add("4G2");
+        rollNo.add("4G3");
+        rollNo.add("4G4");
+    }
+
+    private void Ece_1_D() {
+        //Storing Roll No. in array list using loops
+        for (char i = 'G'; i <= 'M'; i++) { //This loop generates the last second character of roll no.
+            if (i == 'I')
+                i++;
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("4G0");
+        rollNo.remove("4G1");
+        rollNo.remove("4G2");
+        rollNo.remove("4G3");
+        rollNo.remove("4G4");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("4N0");
+        rollNo.add("4N1");
+        rollNo.add("4N2");
+        rollNo.add("4N3");
+        rollNo.add("4N4");
+        rollNo.add("4N5");
+    }
+
+    private void Ece_2_A() {
+        //Storing Roll No. in array list using loops
+        for (char i = '0'; i <= '5'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("400");
+        rollNo.remove("417");
+        rollNo.remove("435");
+        rollNo.remove("443");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("460");
+        rollNo.add("16-401");
+        rollNo.add("16-402");
+        rollNo.add("16-403");
+        rollNo.add("16-405");
+        rollNo.add("16-407");
+        rollNo.add("16-408");
+        rollNo.add("16-410");
+        rollNo.add("16-411");
+    }
+
+    private void Ece_2_B() {
+        //Storing Roll No. in array list using loops
+        for (char i = '6'; i <= 'B'; i++) { //This loop generates the last second character of roll no.
+            if (i == ':')
+                while (i != 'A')
+                    i++;
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("460");
+        rollNo.remove("469");
+        rollNo.remove("475");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("4C0");
+        rollNo.add("16-413");
+        rollNo.add("16-414");
+        rollNo.add("16-415");
+        rollNo.add("16-416");
+        rollNo.add("16-417");
+        rollNo.add("16-418");
+        rollNo.add("16-419");
+        rollNo.add("16-420");
+        rollNo.add("16-421");
+        rollNo.add("16-422");
+        rollNo.add("16-423");
+    }
+
+    private void Ece_2_C() {
+        //Storing Roll No. in array list using loops
+        for (char i = 'C'; i <= 'H'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+
+        //Removing the no.'s which are not required
+        rollNo.remove("4C0");
+        rollNo.remove("4E7");
+        rollNo.remove("4D3");
+
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("4J0");
+        rollNo.add("16-404");
+        rollNo.add("16-409");
+        rollNo.add("16-424");
+        rollNo.add("16-425");
+        rollNo.add("16-426");
+        rollNo.add("16-427");
+        rollNo.add("16-428");
+        rollNo.add("16-429");
+        rollNo.add("16-430");
+        rollNo.add("16-431");
+        rollNo.add("16-432");
+        rollNo.add("16-433");
+        rollNo.add("16-434");
+        rollNo.add("16-435");
+        rollNo.add("16-436");
+    }
+
+    private void Ece_2_D() {
+        //Storing Roll No. in array list using loops
+        for (char i = 'J'; i <= 'P'; i++) { //This loop generates the last second character of roll no.
+            if (i == 'O')
+                i++;
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("4J0");
+        rollNo.remove("4J3");
+        rollNo.remove("4L8");
+        rollNo.remove("4P8");
+
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("4Q0");
+        rollNo.add("16-406");
+        rollNo.add("16-412");
+        rollNo.add("16-437");
+        rollNo.add("16-438");
+        rollNo.add("16-439");
+        rollNo.add("16-440");
+        rollNo.add("16-441");
+        rollNo.add("16-442");
+        rollNo.add("16-443");
+        rollNo.add("16-444");
+        rollNo.add("16-445");
+        rollNo.add("16-446");
+        rollNo.add("16-447");
+        rollNo.add("16-448");
+    }
+
+    private void Ece_3_A() {
+        //Storing Roll No. in array list using loops
+        for (char i = '0'; i <= '5'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("400");
+        rollNo.remove("420");
+        rollNo.remove("421");
+        rollNo.remove("440");
+        rollNo.remove("447");
+        rollNo.remove("459");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("460");
+        rollNo.add("13-4G6");
+        rollNo.add("15-404");
+        rollNo.add("15-405");
+        rollNo.add("15-406");
+        rollNo.add("15-410");
+        rollNo.add("15-416");
+    }
+
+    private void Ece_3_B() {
+        //Storing Roll No. in array list using loops
+        for (char i = '6'; i <= 'B'; i++) { //This loop generates the last second character of roll no.
+            if (i == ':')
+                while (i != 'A')
+                    i++;
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("460");
+        rollNo.remove("468");
+        rollNo.remove("469");
+        rollNo.remove("481");
+        rollNo.remove("482");
+        rollNo.remove("485");
+        rollNo.remove("488");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("4C0");
+        rollNo.add("13-401");
+        rollNo.add("13-408");
+        rollNo.add("13-439");
+        rollNo.add("15-402");
+        rollNo.add("15-412");
+    }
+
+    private void Ece_3_C() {
+        //Storing Roll No. in array list using loops
+        for (char i = 'C'; i <= 'H'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("4C0");
+        rollNo.remove("4C7");
+        rollNo.remove("4C8");
+        rollNo.remove("4E9");
+        rollNo.remove("4F5");
+        rollNo.remove("4F7");
+        rollNo.remove("4G8");
+        rollNo.remove("4H4");
+        rollNo.remove("4H6");
+        rollNo.remove("4H9");
+
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("13-4B7");
+        rollNo.add("13-4F1");
+        rollNo.add("15-401");
+        rollNo.add("15-403");
+        rollNo.add("15-407");
+        rollNo.add("15-408");
+        rollNo.add("15-411");
+        rollNo.add("15-413");
+        rollNo.add("15-414");
+        rollNo.add("15-415");
+    }
+
+    private void Ece_3_D() {
+        //Storing Roll No. in array list using loops
+        for (char i = 'J'; i <= 'P'; i++) { //This loop generates the last second character of roll no.
+            if (i == 'O')
+                i++;
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("4J0");
+        rollNo.remove("4J9");
+        rollNo.remove("4K2");
+        rollNo.remove("4L0");
+        rollNo.remove("4L3");
+        rollNo.remove("4L4");
+        rollNo.remove("4L8");
+        rollNo.remove("4P8");
+
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("4Q0");
+        rollNo.add("12-432");
+        rollNo.add("13-460");
+        rollNo.add("13-4J5");
+        rollNo.add("13-4L4");
+    }
+
+    private void Ece_4_A() {
+        //Storing Roll No. in array list using loops
+        for (char i = '0'; i <= '4'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("400");
+        rollNo.remove("401");
+        rollNo.remove("403");
+        rollNo.remove("408");
+        rollNo.remove("437");
+        rollNo.remove("439");
+        rollNo.remove("440");
+
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("450");
+        rollNo.add("451");
+        rollNo.add("452");
+        rollNo.add("136.429");
+        rollNo.add("13J.405");
+        rollNo.add("14-405");
+        rollNo.add("14-407");
+        rollNo.add("14-409");
+    }
+
+    private void Ece_4_B() {
+        //Storing Roll No. in array list using loops
+        for (char i = '5'; i <= '9'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("450");
+        rollNo.remove("451");
+        rollNo.remove("452");
+        rollNo.remove("460");
+        rollNo.remove("468");
+        rollNo.remove("487");
+        rollNo.remove("489");
+        rollNo.remove("494");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("4A0");
+        rollNo.add("4A1");
+        rollNo.add("4A2");
+        rollNo.add("4A3");
+        rollNo.add("4A4");
+        rollNo.add("14-401");
+        rollNo.add("14-402");
+        rollNo.add("14-403");
+        rollNo.add("14-404");
+        rollNo.add("14-406");
+    }
+
+    private void Ece_4_C() {
+        //Storing Roll No. in array list using loops
+        for (char i = 'A'; i <= 'E'; i++) { //This loop generates the last second character of roll no.
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("4A0");
+        rollNo.remove("4A1");
+        rollNo.remove("4A2");
+        rollNo.remove("4A3");
+        rollNo.remove("4A4");
+        rollNo.remove("4B7");
+        rollNo.remove("4B9");
+        rollNo.remove("4C5");
+        rollNo.remove("4D6");
+        rollNo.remove("4D7");
+        rollNo.remove("4D9");
+        rollNo.remove("4E6");
+        //Adding no.'s which were unable to add using above loop
+        rollNo.add("4F0");
+        rollNo.add("4F3");
+        rollNo.add("4F4");
+        rollNo.add("14-408");
+    }
+
+    private void Ece_4_D() {
+        //Storing Roll No. in array list using loops
+        for (char i = 'F'; i <= 'L'; i++) { //This loop generates the last second character of roll no.
+            if (i == 'I')
+                i++;
+            for (int j = 0; j < 10; j++) { //Tis loop generates an last character of roll no.
+
+                //The generated character and integer art converted to string and concatenated
+                //to store in array list
+                rollNo.add("4" + Character.toString(i) + Integer.toString(j));
+            }
+        }
+        //Removing the no.'s which are not required
+        rollNo.remove("4F0");
+        rollNo.remove("4F1");
+        rollNo.remove("4F2");
+        rollNo.remove("4F3");
+        rollNo.remove("4F4");
+        rollNo.remove("4F9");
+        rollNo.remove("4G5");
+        rollNo.remove("4G6");
+        rollNo.remove("4H5");
+        rollNo.remove("4J5");
+        rollNo.remove("4K4");
+        rollNo.remove("4L4");
+        rollNo.remove("4L6");
+        rollNo.remove("4L7");
+        rollNo.remove("4L8");
+        rollNo.remove("4L9");
+    }
+
+
+
+
+//switch
+
+
+
+case 1:
+                switch (year) {
+                    case 1:
+                        switch (section) { //3
+                            case 1:
+                                Mech_1_A();
+                                break;
+                            case 2:
+                                Mech_1_B();
+                                break;
+
+                        }
+                        break;
+                    case 2:
+                        switch (section) { //3
+                            case 1:
+                                Mech_1_A();
+                                break;
+                            case 2:
+                                Mech_1_B();
+                                break;
+                        }
+                        break;
+                    case 3:
+                        switch (section) { //3
+                            case 1:
+                                Civil_3_A();
+                                break;
+                            case 2:
+                                Civil_3_B();
+                                break;
+                        }
+                        break;
+                    case 4:
+                        switch (section) { //3
+                            case 1:
+                                Mech_1_A();
+                                break;
+                            case 2:
+                                Mech_1_B();
+                                break;
+                        }
+                        break;
+
+                }
+                break;
+            case 3:
+                switch (year) { //2
+                    case 1:
+                        switch (section) { //3
+                            case 1:
+                                Mech_1_A();
+                                break;
+                            case 2:
+                                Mech_1_B();
+                                break;
+                            case 3:
+                                Mech_1_C();
+                                break;
+                        }
+                        break;
+                    case 2:
+                        switch (section) { //3
+                            case 1:
+                                Mech_2_A();
+                                break;
+                            case 2:
+                                Mech_2_B();
+                                break;
+                            case 3:Mech_2_C();
+                                break;
+
+                        }
+                        break;
+                    case 3:
+                        switch (section) {  //3
+                            case 1:
+                                Mech_3_A();
+                                break;
+                            case 2:
+                                Mech_3_B();
+                                break;
+                            case 3:
+                                Mech_3_C();
+                                break;
+
+                        }
+                        break;
+                    case 4:
+                        switch (section) {  //3
+                            case 1:
+                                Mech_4_A();
+                                break;
+                            case 2:
+                                Mech_4_B();
+                                break;
+                            case 3:
+                                Mech_4_C();
+                                break;
+                        }
+                        break;
+                }
+                break;
+            case 4:
+                switch (year) { //2
+                    case 1:
+                        switch (section) {  //3
+                            case 1:
+                                Ece_1_A();
+                                break;
+                            case 2:
+                                Ece_1_B();
+                                break;
+                            case 3:
+                                Ece_1_C();
+                                break;
+                            case 4:
+                                Ece_1_D();
+                                break;
+
+                        }
+                        break;
+                    case 2:
+                        switch (section) {  //3
+                            case 1:
+                                Ece_2_A();
+                                break;
+                            case 2:
+                                Ece_2_B();
+                                break;
+                            case 3:
+                                Ece_2_C();
+                                break;
+                            case 4:
+                                Ece_2_D();
+                                break;
+
+                        }
+                        break;
+                    case 3:
+                        switch (section) {  //3
+                            case 1:
+                                Ece_3_A();
+                                break;
+                            case 2:
+                                Ece_3_B();
+                                break;
+                            case 3:
+                                Ece_3_C();
+                                break;
+                            case 4:
+                                Ece_3_D();
+                                break;
+
+                        }
+                        break;
+                    case 4:
+                        switch (section) {  //3
+                            case 1:
+                                Ece_4_A();
+                                break;
+                            case 2:
+                                Ece_4_B();
+                                break;
+                            case 3:
+                                Ece_4_C();
+                                break;
+                            case 4:
+                                Ece_4_D();
+                                break;
+
+                        }
+                        break;
+                }
+                break;

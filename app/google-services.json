@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "862576502289",
+    "firebase_url": "https://cmr-attendance.firebaseio.com",
+    "project_id": "cmr-attendance",
+    "storage_bucket": "cmr-attendance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862576502289:android:49d5a8ce30866eab",
+        "android_client_info": {
+          "package_name": "in.ac.cmrtc.cmrattendanceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862576502289-bn3edk80ke5jv133ut4rsnn8mkqdj77v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiGa5LPF_VvJ77snQ8rLzhMp0thSrLX4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

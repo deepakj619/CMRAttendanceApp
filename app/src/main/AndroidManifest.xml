@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.ac.cmrtc.cmrattendanceapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Year"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Section"
+            android:parentActivityName=".Year" />
+        <activity
+            android:name=".StudentList"
+            android:parentActivityName=".SelectionActivity" />
+        <activity android:name=".ListGenerator" />
+        <activity
+            android:name=".Display"
+            android:parentActivityName=".StudentList" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".GetAttendance"
+            android:parentActivityName=".SelectionActivity" />
+        <activity
+            android:name=".ResetPassword"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".SelectionActivity"
+            android:parentActivityName=".Section" />
+        <activity
+            android:name=".ShowAttendanceAdapater"
+            android:parentActivityName=".GetAttendance" />
+        <activity android:name=".Semester"
+            android:parentActivityName=".Year"
+            >
+
+        </activity>
+    </application>
+
+</manifest>

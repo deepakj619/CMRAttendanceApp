@@ -1,0 +1,239 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marking absent or present in below list"
+                android:textSize="16dp"
+                />
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    >
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ABSENT"
+                        android:checked="true"
+                        android:id="@+id/absent"
+                        android:textSize="20sp"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/present"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PRESENT"
+                        android:textSize="20sp" />
+
+                </RadioGroup>
+                <!--<CheckBox
+                    android:id="@+id/absent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="absent"
+                    android:textAllCaps="true"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/present"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="present"
+                    android:textAllCaps="true"
+                    android:textSize="20sp" />-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Select Period"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/period_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1"
+                    android:textSize="20sp"/>
+
+                <CheckBox
+                    android:id="@+id/period_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2"
+                    android:textSize="20sp"/>
+
+                <CheckBox
+                    android:id="@+id/period_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3"
+                    android:textSize="20sp"/>
+
+                <CheckBox
+                    android:id="@+id/period_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4"
+                    android:textSize="20sp"/>
+
+                <CheckBox
+                    android:id="@+id/period_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5"
+                    android:textSize="20sp"/>
+
+                <CheckBox
+                    android:id="@+id/period_6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+                android:id="@+id/subjectTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Subject :"
+                android:textSize="20sp"
+                />
+
+            <Spinner
+                android:id="@+id/subjectSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List of students"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp" />
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select list to be generated"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <CheckBox
+                android:id="@+id/absent_list"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Absent List"
+                android:textAllCaps="true"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/present_list"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="present List"
+                android:textAllCaps="true"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/sms"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/show"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/copy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/db"
+            android:layout_width="416dp"
+            android:text="Save to database"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.ac.cmrtc.cmrattendanceapp.ShowAttendanceAdapater">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/display_text"
+            android:id="@+id/attendancetv"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listradio">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:id="@+id/Pradio"
+                android:text="Present List"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Aradio"
+                android:text="Absent List"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textviewperiod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/List_text_size"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Select Period:" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner1"
+            android:spinnerMode="dropdown"
+
+            >
+
+        </Spinner>
+
+
+
+        <Button
+            android:id="@+id/showAttendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="show attendance" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            >
+
+
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/attendancelistview">
+            </ListView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

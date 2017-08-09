@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">CMR Attendance App</string>
+
+
+    <string-array name="branch_names">
+
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>MECH</item>
+        <item>CIVIL</item>
+
+    </string-array>
+
+    <string-array name="year_list">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+    </string-array>
+
+    <string-array name="sec_list">
+
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+
+    </string-array>
+    <string-array name="sem">
+
+        <item>1</item>
+        <item>2</item>
+
+    </string-array>
+    <string-array name="Second_cse_1_subjects">
+
+
+        <item>Probability and Statistics</item>
+        <item>Mathematical Foundations of Computer Science</item>
+        <item>Data Structures</item>
+        <item>Digital Logic Design</item>
+        <item>Electronic Devices and Circuits</item>
+        <item>Basic Electrical Engineering</item>
+        <item>Electrical and Electronics Lab</item>
+        <item>Data Structures Lab</item>
+
+    </string-array>
+
+    <string-array name="Second_cse_2_subjects">
+
+
+        <item>Computer Organization</item>
+        <item>Database Management Systems</item>
+        <item>Java Programming</item>
+        <item>Environmental Studies</item>
+        <item>Formal Languages and Automata Theory</item>
+        <item>Design and Analysis of Algorithms</item>
+        <item>Java Programming Lab</item>
+        <item>Database Management Systems Lab</item>
+
+    </string-array>
+
+</resources>
